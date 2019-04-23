@@ -33,7 +33,7 @@ class Contact(models.Model):
     contact_no = models.IntegerField(unique=True)
 
     def __str__(self):
-        return self.contact_no
+        return str(self.contact_no)
 
 
 class Department(models.Model):
